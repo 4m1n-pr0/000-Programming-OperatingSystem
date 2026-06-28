@@ -85,4 +85,4 @@ To clean the `bin` directory, execute this command :
 make clean
 ```
 
-> Note: The character `?` specifies the variant to chose. In the current case, variants of kernel are 'alpha', 'chars' and 'magenta'. If there was not this concept of variants, a different Makefile would be used for each specific kernel C program, which would be inefficient.
+> Note: The character `?` specifies the kernel variant to chose. If there was not this concept of variants, a different Makefile would be used for each specific kernel C program, which would be inefficient.

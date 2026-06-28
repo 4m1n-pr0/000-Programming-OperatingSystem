@@ -4,8 +4,6 @@
 
 The file `boot-sect0.asm` represents a basic boot sector. It will print the string of characters `HELLO WORLD` to the screen.
 
-The first loop will hang the CPU so it does not execute anything after (and does not crash).
-
 The first line of code will move `0x0e` (The Scrolling Teletype), to `ah`. Hence, the BIOS will know the cursor must move to the next position on the screen after printing a new character, thus called the scrolling teletype.
 
 ```asm

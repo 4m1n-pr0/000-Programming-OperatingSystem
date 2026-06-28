@@ -14,12 +14,12 @@ Finally, in the `kernel-alpha.c`, the background and foreground color of each pi
 
 ## Practice
 
-To a specific operating system, execute this command : 
+To build a specific operating system, execute this command : 
 ```bash
 make VARIANT=?
 ```
 
-To boot on the operating system, execute this command :
+To boot on the specific operating system, execute this command :
 ```bash
 make run VARIANT=?
 ```

@@ -36,7 +36,7 @@ nasm boot-sect0-color.asm -f bin -o boot-c.bin
 - `-f bin`: Format of the produced file as a flat raw binary (MS-DOS, embedded, ...) [default]
 - `-o *.bin`: Output file (bootable)
 
-To boot on the compiled file, execute this command : 
+To boot on the compiled file, execute these commands : 
 ```bash
 qemu-system-i386 -drive format=raw,file=boot-i.bin
 qemu-system-i386 -drive format=raw,file=boot-c.bin

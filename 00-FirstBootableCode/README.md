@@ -2,7 +2,7 @@
 
 ## Theory
 
-This code represents a basic boot sector, also known as the Master Boot Record (MBR). It consists of exactly 512 bytes located at the very beginning of a bootable drive. During startup, the BIOS searches for this specific sector, verifies it by looking for the 'magic number' at the end, and loads it into memory for the CPU to execute.
+The file `boot-sect0.asm` represents a basic boot sector, also known as the Master Boot Record (MBR). It consists of exactly 512 bytes located at the very beginning of a bootable drive. During startup, the BIOS searches for this specific sector, verifies it by looking for the 'magic number' at the end, and loads it into memory for the CPU to execute.
 
 The first loop will hang the CPU so it does not execute anything after (and does not crash).
 
