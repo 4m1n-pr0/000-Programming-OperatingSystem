@@ -39,4 +39,4 @@ run: all
 	$(QEMU) -drive format=raw,file=$(BUILD_DIR)/os-disk.bin
 
 clean:
-	rm -f $(BUILD_DIR)/*.bin $(BUILD_DIR)/*.o
+	rm -f $(BUILD_DIR)/*.bin $(BUILD_DIR)/*.o $(BUILD_DIR)/*.elf
